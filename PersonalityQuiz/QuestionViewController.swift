@@ -66,6 +66,12 @@ class QuestionViewController: UIViewController {
             Answer(text: "I get a little nervous", type: .rabbit),
             Answer(text: "I barely notice them", type: .turtle),
             Answer(text: "I love them", type: .dog)
+            ]),
+        Question(text: "Which item do you prefer?", type: .single, answers: [
+            Answer(text: "Knit", type: .cat),
+            Answer(text: "Grass", type: .rabbit),
+            Answer(text: "Nothing", type: .turtle),
+            Answer(text: "Bone", type: .dog)
             ])
     ]
     
